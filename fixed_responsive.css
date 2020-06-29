@@ -1,0 +1,251 @@
+
+.title{
+	text-align:center;
+	color:black;
+	font-size: 55px; /* 55px */
+	margin-bottom: 0;
+	font-family: 'Italianno', cursive;
+	}
+	#sub-title{
+		color:grey;
+		font-size: 1.75em; /* 55px */
+		/*margin-bottom: 0;*/
+		font-family: 'Italianno', cursive;
+		text-align:center;
+		text-decoration:underline;
+	
+	}
+	.big-sqr{
+		margin-top:100px;
+		background-color: darkorange;
+		
+	}
+	.sqr{
+		height:200px;
+		border:1px solid red;
+		border-radius:25px;
+		text-align:center;
+		font-size:30px;
+		margin-left:64.38px;
+		/*margin-bottom:50px;
+		margin-top:30px;*/
+	}
+	.sqr:hover{
+		border:1px solid double;
+		background-color: green;
+	}
+	#fixed-sect{
+		color:white;
+		text-align:center;
+		text-decoration:underline;
+		margin-top:100px;
+		margin-left:55px;
+		
+		
+		background-color:yellow;
+	}
+
+	
+body h2{
+	font-family: 'Italianno', cursive, 'Cookie';
+	font-size: 2.5em;
+	
+}
+.fixed-sect-p {
+	text-align: center;
+	color: purple;
+	font-family: cursive, 'Cookie';
+}
+body h3{
+	color:darkblue;
+	text-align:center;
+	font-family:cursive,'cookie';
+	font-size:1.5em;
+}
+
+/*
+body h3{
+	clear:both;
+}*/
+
+.sqr2 {
+	height:200px;
+	margin-left: 64.38px; 
+	border: 2px solid black;
+	border-radius: 25px;
+	
+}
+.sqr2:hover{
+	border:2px solid yellow;
+	background-color: darkturquoise;
+}
+.web-types-list-total {
+	margin-right: 2%;
+	margin-left: 0%;
+}
+
+#web-types-list {
+	color:purple;
+	border-radius: 2.5%;/* 25px */
+	margin-left: 10.3%;/* 53px */
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px dashed black;
+	height: 50%;/* 425px */
+	margin-top:50px;
+}
+.equation-list {
+	color: red;
+	font-size: 1.0625em; /* 17px */
+}
+
+.adaptive-style {
+	background-color: deeppink;
+	margin-right: .725%;/* 2.5px */
+	margin-left: 0;/* 2.5px */
+}
+
+.adaptive-style2 {
+	border: 2px solid black;
+	margin-right: 70px;
+	margin-left: 10px;
+	height: 675px;
+	/*border-right:2px solid yellow;*/
+	/*clear:both;*/
+}
+
+.fixed-sect-p2 {
+	text-align: center;
+	color: purple;
+}
+
+.chrome-list{
+	color: red;
+	text-align: center;
+}
+.resolution-list {
+	color: purple;
+	text-decoration: underline;
+}
+#media-queries-head {
+	font-size: 1.25em; /* 20px */
+}
+.fixed-sect-p2 {
+	text-align: center;
+	color: purple;
+}
+
+.media-combine {
+	margin-left: 6%;
+}
+
+.media-example {
+	border-radius: 5px;
+	margin-right: 0.725%;/* 2.5px */
+	margin-left: 0.725%;/* 2.5px */
+	padding: 0 0.75%;/* 2.5px */
+	margin-top: 0;
+	height: 360px;/* 365px */
+	border: 1px solid green;
+}
+
+body h6 {
+	text-align: center;
+	font-size: .9375em; /* 15px */
+	margin-top: 5px;
+}
+.media-grid {
+	margin-left: 10%;/* 53px */
+	margin-top: 0px;
+
+}
+
+.media-example2 {
+	margin-right: 0.725%;/* 2.5px */
+	margin-left: 0.725%;/* 2.5px */
+	padding: 0 0.75%;/* 2.5px */
+	margin-top: 0;
+	height: 36.5%;/* 365px */
+	border-left: 2px solid darkblue;
+	/*border:2px solid red;*/
+}
+
+.media-explan {
+	margin-top: 3.968%;
+	/*text-align: center;*/
+}
+
+.meta-tag {
+	color: blue;
+}
+
+.adaptive-style3 {
+	border: 2px dashed black;
+	margin-right: 0.725%;/* 2.5px */
+	margin-left: 5%;/* 2.5px */
+	height: 67.5%;/* 675px */
+}
+.break-point-fix{
+	margin:0;
+	/*width:100%;*/
+}
+
+.break-point {
+	margin-left: 5%;
+}
+
+.media-example3 {
+	margin-right: 0.725%;/* 2.5px */
+	margin-left: 2%;/* 2.5px */
+	padding-left: 5%;
+	margin-top: 0;
+	height: 36.5%;/* 365px */
+	border-left: 2px solid darkblue;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	margin-left:00px;
+	background-color: dodgerblue;
+}
+.iframe{
+	height:495px;
+	width:760px;
+	position:relative;
+	background-color: forestgreen;
+	margin-left:300px;
+}
+.iframe iframe{
+	margin-left:100px;
+	margin-top:100px;
+	
+}
+	/*
+	#fixed-sect {
+		color: darkgrey;
+		text-align: center;
+		text-decoration: underline;
+		margin-top: 20%;/*200px*/
+	/*	margin-left: 5.3%;/*53px*/
+	/*}
+*/
+
+@media screen and (max-width : 550px) {
+	.media-example {
+		width:50%;
+	}
+	.media-grid {
+		margin-left: 30%;
+	}
+	.media-example2 {
+		border-left: 0px;
+		text-align: center;
+		margin-left: 10%;
+	}
+	.title {
+ 	font-size:30px;
+ }
+  .my-webpage{
+ 	display:block;
+ }
