@@ -207,13 +207,13 @@ body h6 {
     padding-bottom: 56.25%;
 	padding-top: 30px; height: 0; overflow: hidden;
 	margin-left:00px;
-	background-color: dodgerblue;
+	background-color: blue;
 }
 .iframe{
 	height:495px;
 	width:760px;
 	position:relative;
-	background-color: forestgreen;
+	background-color: green;
 	margin-left:300px;
 }
 .iframe iframe{
